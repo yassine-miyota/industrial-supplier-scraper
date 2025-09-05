@@ -1,0 +1,12 @@
+nest_asyncio
+flask
+pandas
+duckduckgo-search
+requests
+beautifulsoup4
+together
+openai
+groq
+tiktoken
+selenium
+webdriver-manager

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scrapping Results</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <style>
+    body {
+      background-image: url("{{ url_for('static', filename='background9.png') }}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.6) !important; /* blanc translucide */
+      backdrop-filter: blur(8px); /* flou arrière-plan */
+      -webkit-backdrop-filter: blur(8px); /* compatibilité Safari */
+      border: none; /* enlever les bordures par défaut */
+      border-radius: 15px; /* arrondi élégant */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* ombre légère */
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-title {
+      color: #28a745;           /* Bootstrap green or any green */
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.2rem;        /* Optional: slightly larger text */
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 100%;
+    }
+
+    .heart {
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: grey; /* couleur par défaut */
+      transition: color 0.3s ease;
+    }
+
+    .heart.liked {
+      color: red; /* couleur quand c'est cliqué */
+    }
+
+    .result-box {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    @media (max-width: 768px) {
+      .logo-right {
+        text-align: center !important;
+        margin-bottom: 15px;
+      }
+    }
+
+    table {
+        font-family: 'Verdana', sans-serif;  /* Or any other font like 'Roboto', 'Verdana', etc. */
+        font-size: 12px;                   /* Adjust size as needed */
+    }
+
+    th, td {
+    font-weight: normal;               /* Optional: make it lighter */
+    padding: 10px;                     /* Optional: spacing for better readability */
+    }
+  </style>
+</head>
+
+<body class="m-0 p-0">
+
+  <!-- Logo -->
+  <div class="container pb-4">
+    <div class="d-flex justify-content-end logo-right">
+      <img src="{{ url_for('static', filename='logo5.png') }}" alt="Supplier AutoPart Finder Logo" width="150" class="img-fluid">
+    </div>
+  </div>
+    <div class="container my-4">
+      <div class="content result-box shadow">
+        <h2 class="mb-4 text-center">Results for: "{{ query }}"</h2>
+    
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {% for item in results %}
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                {% if item.part_number %}
+                  <h6 class="card-subtitle mb-2 text-muted">Part Number: {{ item.part_number }}</h6>
+                {% endif %}
+                <p class="card-text">
+                  {% if item.email %}
+                    <strong>Email:</strong> {{ item.email }}<br>
+                  {% endif %}
+                  {% if item.phone %}
+                    <strong>Phone:</strong> {{ item.phone }}<br>
+                  {% endif %}
+                  {% if item.address %}
+                    <strong>Address:</strong> {{ item.address }}<br>
+                  {% endif %}
+                  {% if item.price %}
+                    <strong>Price:</strong> {{ item.price }}<br>
+                  {% endif %}
+                </p>
+              </div>
+              {% if item.url %}
+              <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+                <a href="{{ item.url }}" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
+                <i class="fa-solid fa-heart heart" onclick="toggleHeart(this, '{{ item.url }}')"></i>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+          
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between flex-wrap mt-4">
+          <a href="/download" class="btn btn-success mb-2">Download as Excel</a>
+          <a href="/" class="btn btn-secondary mb-2">Search Again</a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      function toggleHeart(el, supplierUrl) {
+        el.classList.toggle("liked");
+    
+        // Ici tu pourras envoyer la donnée au backend Flask
+        const isLiked = el.classList.contains("liked");
+    
+        console.log("Supplier:", supplierUrl, "Liked:", isLiked);
+    
+        // Exemple : POST vers Flask (tu pourras stocker en DB)
+        fetch("/save_favorite", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ url: supplierUrl, liked: isLiked })
+        })
+        .then(res => res.json())
+        .then(data => console.log("Saved:", data))
+        .catch(err => console.error("Error:", err));
+      }
+    </script>
+
+
+</body>
+</html>

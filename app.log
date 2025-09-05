@@ -1,0 +1,156 @@
+2025-08-04 19:32:44,858 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-08-04 19:32:44,862 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 19:32:49,429 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "GET / HTTP/1.1" 200 -
+2025-08-04 19:32:49,511 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:32:49,530 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "[36mGET /static/icon_accurate.png HTTP/1.1[0m" 304 -
+2025-08-04 19:32:49,549 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "[36mGET /static/icon_intelligent.png HTTP/1.1[0m" 304 -
+2025-08-04 19:32:49,556 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "[36mGET /static/icon_efficient.png HTTP/1.1[0m" 304 -
+2025-08-04 19:32:49,569 - INFO - 127.0.0.1 - - [04/Aug/2025 19:32:49] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
+2025-08-04 19:32:57,992 - INFO - \U0001f50d Nouvelle requête reçue : papier abrasif
+2025-08-04 19:33:00,422 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:11,343 - INFO - \U0001f9e0 Résultats Serper récupérés: 5 liens
+2025-08-04 19:33:34,633 - INFO - \U0001f4de Contacts Kerix récupérés: 5
+2025-08-04 19:33:37,155 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:37,521 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:37,888 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:38,921 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:43,937 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:44,587 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:45,502 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:46,686 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:52,601 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:52,703 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:52,984 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:33:54,695 - INFO - \u2705 Résultat trouvé pour https://industrial.sherwin-williams.com/na/us/en/industrial-wood/catalog/category/products-by-industry/equipment-and-supplies/sandpaper-and-abrasives.11323614.html
+2025-08-04 19:33:56,153 - INFO - \u2705 Résultat trouvé pour https://www.thomasnet.com/suppliers/usa/sand-paper-57061400
+2025-08-04 19:33:59,653 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:34:02,401 - INFO - \u2705 Résultat trouvé pour https://www.directindustry.com/industrial-manufacturer/paper-abrasive-249919.html
+2025-08-04 19:34:02,419 - INFO - \u2705 Résultat trouvé pour https://www.fishersci.com/us/en/browse/90150094/abrasive-pads,-papers,-and-accessories?page=1
+2025-08-04 19:34:12,040 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:34:51,282 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:34:53,736 - INFO - \u2705 Résultat trouvé pour https://www.elg.ma/catalogues/CATALOGUE%20-DE-Black%20et%20decker.pdf
+2025-08-04 19:34:53,739 - INFO - \U0001f3af Total résultats collectés: 10
+2025-08-04 19:34:53,785 - INFO - 127.0.0.1 - - [04/Aug/2025 19:34:53] "POST / HTTP/1.1" 200 -
+2025-08-04 19:34:53,846 - INFO - 127.0.0.1 - - [04/Aug/2025 19:34:53] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:34:53,987 - INFO - 127.0.0.1 - - [04/Aug/2025 19:34:53] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:42,291 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "GET / HTTP/1.1" 200 -
+2025-08-04 19:37:42,371 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:42,390 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "[36mGET /static/icon_accurate.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:42,410 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:42,412 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "[36mGET /static/icon_intelligent.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:42,428 - INFO - 127.0.0.1 - - [04/Aug/2025 19:37:42] "[36mGET /static/icon_efficient.png HTTP/1.1[0m" 304 -
+2025-08-04 19:37:49,256 - INFO - \U0001f50d Nouvelle requête reçue : papier abrasif
+2025-08-04 19:37:51,307 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:00,504 - INFO - \U0001f9e0 Résultats Serper récupérés: 5 liens
+2025-08-04 19:38:23,937 - INFO - \U0001f4de Contacts Kerix récupérés: 5
+2025-08-04 19:38:27,866 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:28,122 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:28,762 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:29,070 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:33,420 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:34,154 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:35,167 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:35,900 - INFO - \u2705 Résultat trouvé pour https://www.directindustry.com/industrial-manufacturer/paper-abrasive-249919.html
+2025-08-04 19:38:36,287 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:36,583 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:38,813 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:41,336 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:43,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:44,383 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:44,739 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:44,999 - INFO - \u2705 Résultat trouvé pour https://www.thomasnet.com/products/abrasive-paper-56850209-1.html
+2025-08-04 19:38:46,267 - INFO - \u2705 Résultat trouvé pour https://www.3mmaroc.ma/3M/en_US/company-us/where-to-buy-3m-products/
+2025-08-04 19:38:46,837 - INFO - \u2705 Résultat trouvé pour https://industrial.sherwin-williams.com/na/us/en/industrial-wood/catalog/category/products-by-industry/equipment-and-supplies/sandpaper-and-abrasives.11323614.html
+2025-08-04 19:38:47,211 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:38:47,213 - INFO - Retrying request to /chat/completions in 0.420804 seconds
+2025-08-04 19:38:48,268 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:38:48,268 - INFO - Retrying request to /chat/completions in 0.769630 seconds
+2025-08-04 19:38:49,801 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:38:52,480 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:38:52,603 - INFO - \u2705 Résultat trouvé pour https://www.fishersci.com/us/en/browse/90150094/abrasive-pads,-papers,-and-accessories?page=1
+2025-08-04 19:38:52,604 - INFO - \U0001f3af Total résultats collectés: 10
+2025-08-04 19:38:52,606 - INFO - 127.0.0.1 - - [04/Aug/2025 19:38:52] "POST / HTTP/1.1" 200 -
+2025-08-04 19:38:52,655 - INFO - 127.0.0.1 - - [04/Aug/2025 19:38:52] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:38:52,715 - INFO - 127.0.0.1 - - [04/Aug/2025 19:38:52] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:34,646 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-08-04 19:42:34,650 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 19:42:39,860 - DEBUG - Page d’accueil chargée (GET)
+2025-08-04 19:42:39,898 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:39] "GET / HTTP/1.1" 200 -
+2025-08-04 19:42:39,952 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:39] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:39,956 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:39] "[36mGET /static/icon_accurate.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:39,981 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:39] "[36mGET /static/icon_efficient.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:39,982 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:39] "[36mGET /static/icon_intelligent.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:40,026 - INFO - 127.0.0.1 - - [04/Aug/2025 19:42:40] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
+2025-08-04 19:42:57,370 - INFO - \U0001f50d Nouvelle requête reçue : baguette de soudure aluminium
+2025-08-04 19:42:58,330 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:42:58,330 - INFO - Retrying request to /chat/completions in 0.465960 seconds
+2025-08-04 19:42:59,416 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:42:59,416 - INFO - Retrying request to /chat/completions in 0.939973 seconds
+2025-08-04 19:43:01,051 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:15,410 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:43:15,537 - DEBUG - Extraction réussie: Aluminum welding rod, Baguette de soudure aluminium, Welding supplies
+2025-08-04 19:43:32,241 - INFO - \U0001f9e0 Résultats Serper récupérés: 3 liens
+2025-08-04 19:43:36,627 - INFO - \U0001f4de Contacts Kerix récupérés: 0
+2025-08-04 19:43:37,898 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:37,900 - INFO - Retrying request to /chat/completions in 0.476801 seconds
+2025-08-04 19:43:38,881 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:38,881 - INFO - Retrying request to /chat/completions in 0.989728 seconds
+2025-08-04 19:43:39,804 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:39,806 - INFO - Retrying request to /chat/completions in 0.409361 seconds
+2025-08-04 19:43:40,412 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:40,856 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:40,859 - INFO - Retrying request to /chat/completions in 0.916867 seconds
+2025-08-04 19:43:41,225 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:43:42,480 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:42,772 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:42,772 - INFO - Retrying request to /chat/completions in 0.402050 seconds
+2025-08-04 19:43:42,962 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:42,964 - INFO - Retrying request to /chat/completions in 0.444697 seconds
+2025-08-04 19:43:43,825 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:43,825 - INFO - Retrying request to /chat/completions in 0.856916 seconds
+2025-08-04 19:43:44,025 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:44,025 - INFO - Retrying request to /chat/completions in 0.992382 seconds
+2025-08-04 19:43:45,280 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:45,649 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:51,913 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:43:53,956 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:53,974 - INFO - Retrying request to /chat/completions in 0.383358 seconds
+2025-08-04 19:43:55,129 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:43:55,141 - INFO - Retrying request to /chat/completions in 0.939646 seconds
+2025-08-04 19:43:56,785 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:11,534 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:11,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:11,719 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:11,726 - INFO - \u2705 Résultat trouvé pour https://www.grainger.com/category/welding/filler-metals/stick-welding-electrodes/aluminum-stick-welding-electrodes
+2025-08-04 19:44:12,465 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:12,467 - INFO - Retrying request to /chat/completions in 0.397056 seconds
+2025-08-04 19:44:13,390 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:13,406 - INFO - Retrying request to /chat/completions in 0.924589 seconds
+2025-08-04 19:44:14,896 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:15,873 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:15,873 - INFO - \u2705 Résultat trouvé pour https://www.airgas.com/Welding-Products/Filler-Metal/TIG-Rod(GTAW)/TIG-Rod-Aluminum/category/125
+2025-08-04 19:44:16,491 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:16,491 - INFO - Retrying request to /chat/completions in 0.395505 seconds
+2025-08-04 19:44:17,404 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:17,411 - INFO - Retrying request to /chat/completions in 0.790087 seconds
+2025-08-04 19:44:18,829 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:19,756 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:20,508 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:20,508 - INFO - Retrying request to /chat/completions in 0.482814 seconds
+2025-08-04 19:44:21,612 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:21,612 - INFO - Retrying request to /chat/completions in 0.808059 seconds
+2025-08-04 19:44:23,028 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:23,939 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:25,119 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:25,125 - INFO - Retrying request to /chat/completions in 0.441001 seconds
+2025-08-04 19:44:26,258 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:26,260 - INFO - Retrying request to /chat/completions in 0.942846 seconds
+2025-08-04 19:44:28,006 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-04 19:44:28,773 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 19:44:28,773 - INFO - \u2705 Résultat trouvé pour https://esab.com/us/nam_en/brands/esab-family-brands/alcotec/
+2025-08-04 19:44:28,773 - INFO - \U0001f3af Total résultats collectés: 3
+2025-08-04 19:44:28,804 - INFO - 127.0.0.1 - - [04/Aug/2025 19:44:28] "POST / HTTP/1.1" 200 -
+2025-08-04 19:44:28,865 - INFO - 127.0.0.1 - - [04/Aug/2025 19:44:28] "[36mGET /static/logo5.png HTTP/1.1[0m" 304 -
+2025-08-04 19:44:28,945 - INFO - 127.0.0.1 - - [04/Aug/2025 19:44:28] "[36mGET /static/background9.png HTTP/1.1[0m" 304 -
